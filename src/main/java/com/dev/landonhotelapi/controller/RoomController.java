@@ -33,7 +33,7 @@ public class RoomController {
     @PutMapping(path = "/update/{id}")
     public void updateRoom(@PathVariable Long id, @RequestBody Room room){
         repository.findById(id).ifPresent(r -> {
-            r.setName(room.getName());
+            r.setRoomName(room.getRoomName());
             r.setBedInfo(room.getBedInfo());
             r.setRoomNumber(room.getRoomNumber());
         });

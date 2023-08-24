@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LandonHotelApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LandonHotelApiApplication.class, args);
+       SpringApplication.run(LandonHotelApiApplication.class, args);
     }
 
 }

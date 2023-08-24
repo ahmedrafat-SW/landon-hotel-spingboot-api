@@ -2,8 +2,6 @@ package com.dev.landonhotelapi.controller;
 
 import com.dev.landonhotelapi.data.Guest;
 import com.dev.landonhotelapi.repository.GuestRepository;
-import jakarta.persistence.metamodel.Bindable;
-import jakarta.persistence.metamodel.EntityType;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/api/v1/guests")
+@RequestMapping(path = "api/v1/guests")
 @AllArgsConstructor
 public class GuestController {
 
